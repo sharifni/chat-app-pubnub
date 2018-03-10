@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 29.1 29.1" style="enable-background:new 0 0 29.1 29.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:none;stroke:#009DE8;stroke-miterlimit:10;}
+	.st2{clip-path:url(#SVGID_6_);fill:#009DE8;}
+</style>
+<title>Asset 2</title>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="14.6" cy="14.6" r="14"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<defs>
+			<rect id="SVGID_3_" x="0.6" y="0.6" width="28" height="28"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_4_);">
+			
+				<image style="overflow:visible;" width="16" height="16" xlink:href="66566DA98C453C9D.png"  transform="matrix(1.75 0 0 -1.75 0.56 28.565)">
+			</image>
+		</g>
+	</g>
+</g>
+<circle class="st1" cx="14.6" cy="14.6" r="14"/>
+<g>
+	<defs>
+		<path id="SVGID_5_" d="M17.7,15.4c0.5-0.5,0.5-1.2,0-1.6l-4.7-4.7c-0.5-0.5-1.2-0.5-1.6,0c-0.5,0.5-0.5,1.2,0,1.6l4.7,4.7v-1.6
+			l-4.7,4.7c-0.5,0.5-0.5,1.2,0,1.6c0.5,0.5,1.2,0.5,1.6,0L17.7,15.4z"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect x="5.2" y="2.9" class="st2" width="18.7" height="23.3"/>
+</g>
+</svg>
