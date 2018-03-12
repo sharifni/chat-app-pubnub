@@ -256,7 +256,7 @@ body {
 
 
 .button{
-position: absolute;
+    position: absolute;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -275,4 +275,19 @@ button-chat .chaticon {
     height: 26px;
     text-align: center ;
 }
+
+.button-close{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    right: 11px;
+    cursor: pointer;
+    bottom: 20px;
+    /*background: #00A1ED;*/
+    /*background: #d4f1ff;*/
+    background: url(images/chat_close.PNG);
+    background-size: 73px;
+  }
 

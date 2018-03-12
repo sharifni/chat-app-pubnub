@@ -13,6 +13,7 @@
 <body onload="appIntro()">
 	<h1 id="intro"></h1>
 	<div id = "chatButton" class="button"></div>
+	<div id = "chatButton_close" class="button-close" style = "display:none"></div>
     <div id="container" class="container clearfix" style = "display:none">
         <div class="people-list" id="people-list">
             <ul class="list">
@@ -91,6 +92,13 @@
 		$("#chatButton").click(function(){
     		$("#container").css("display","block");
     		$("#chatButton").css("display","none");
+    		$("#chatButton_close").css("display","block");
+		});
+
+		$("#chatButton_close").click(function(){
+    		$("#container").css("display","none");
+    		$("#chatButton").css("display","block");
+    		$("#chatButton_close").css("display","none");
 		});
 
     </script>
