@@ -19,3 +19,7 @@ To detect the presence of a connected user, pubnub(sdk) server sends heartBeat p
 
 Handlebars semantic template language is used in our application.
 
+
+
+
+Demo of the project: https://sharifniyazmd.github.io/chat-app-pubnub/
