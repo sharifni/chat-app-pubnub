@@ -163,14 +163,23 @@ body {
     }
     
     .my-message {
-      background: $green;
+      /*background: $green;*/
+      text-align: left;
+    font-size: 20px;
+    padding-right: 9px;
+    background-color: #009DE8;
+    color: white;
     }
     
     .other-message {
-      background: $blue;
+      text-align: left;
+      font-size: 20px;
+      padding-right: 9px;
+      background-color: #009DE8;
+      color: white;
       
       &:after {
-        border-bottom-color: $blue;
+        /*border-bottom-color: $blue;*/
         left: 93%;
       }
     }
@@ -200,15 +209,15 @@ body {
     }
     
     input[type="submit"] {
-      float: right;
+      /*float: right;
       color: $blue;
       font-size: 16px;
       text-transform: uppercase;
       border: none;
       cursor: pointer;
       font-weight: bold;
-      background: #F2F5F8;
-   
+      background: none;
+   */
       &:hover {
         color: darken(#94C2ED, 7%);
       }

@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="chat-history" style="height: 328px; overflow-y: auto;">
-                <ul></ul>
+                <ul style="list-style: none;padding-left: 10px;"></ul>
             </div>
             <form id="sendMessage" class="chat-message clearfix" style="margin-left: 8px;">
                 <input type="text" name="message-to-send" id="message-to-send" placeholder="Type your message" rows="1" style="width:85%; height: 15%" ></input>
@@ -41,24 +41,24 @@
     <!-- end container -->
     
     <script id="message-template" type="text/x-handlebars-template">
-        <li class="clearfix">
+        <li class="clearfix" style="padding-right: 10px;">
             <div class="message-data align-right">
                 <span class="message-data-time" style="font-size:  10px;">{{time}}</span> &nbsp; &nbsp;
                 <!-- <span class="message-data-name">{{user.first}}</span> <i class="fa fa-circle me"></i> -->
             </div>
-            <div class="message other-message float-right" style="font-size:  20px;padding-right: 9px;">
-                {{messageOutput}}
+            <div class="message other-message float-right" style="font-size:  20px; text-align: left; background-color: #009DE8; color: white;border-radius: 8px;">
+                <p style="padding-right: 9px;padding-left: 9px;">{{messageOutput}}</p>
             </div>
         </li>
     </script>
     <script id="message-response-template" type="text/x-handlebars-template">
-        <li>
+        <li style="padding-right: 10px;">
             <div class="message-data">
                 <!-- <span class="message-data-name"><i class="fa fa-circle online"></i> {{user.first}}</span> -->
                 <span class="message-data-time" style="font-size:  10px;">{{time}}</span>
             </div>
-            <div class="message my-message"  style="font-size:  20px;">
-                {{messageOutput}}
+            <div class="message my-message"  style="float:left; font-size:  20px; text-align: left; background-color: #f08080; color: white;border-radius: 8px;">
+                <p style="padding-right: 9px;padding-left: 9px;">{{messageOutput}}</p>
             </div>
         </li>
     </script>
