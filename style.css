@@ -212,15 +212,14 @@ body {
       /*float: right;
       color: $blue;
       font-size: 16px;
-      text-transform: uppercase;
+      text-transform: uppercase;*/
       border: none;
-      cursor: pointer;
+/*      cursor: pointer;
       font-weight: bold;
-      background: none;
-   */
-      &:hover {
+*/      background: none;
+      /*&:hover {
         color: darken(#94C2ED, 7%);
-      }
+      }*/
     }
   }
 }
